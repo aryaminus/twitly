@@ -25,7 +25,7 @@ SECRET_KEY = 'pmiiskekj%8lzoc=82%pkb^--%6p%f^2w!cx^2uqdr4owiw#jx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['witly.herokuapp.com']
 
 
 # Application definition
