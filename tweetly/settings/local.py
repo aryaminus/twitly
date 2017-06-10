@@ -123,5 +123,6 @@ STATICFILES_DIRS = [
     # will not be served, long term storage
     os.path.join(BASE_DIR, "static-storage"),
 ]
-
-STATIC_ROOT =  os.path.join(os.path.dirname(BASE_DIR), "static-serve") 
+STATIC_ROOT =  os.path.join((BASE_DIR), "static-serve") 
+#STATIC_ROOT =  os.path.join(os.path.dirname(os.path.dirname(BASE_DIR), "static-serve"))
+#STATIC_ROOT =  "/src/static-serve"
