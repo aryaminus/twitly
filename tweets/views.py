@@ -63,4 +63,4 @@ def tweet_detail_view(request, pk=None): # pk == id
     context = {
         "object": obj
     }
-return render(request, "tweets/detail_view.html", context)
+    return render(request, "tweets/detail_view.html", context)
