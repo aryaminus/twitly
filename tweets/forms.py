@@ -22,4 +22,4 @@ class TweetModelForm(forms.ModelForm):
         content = self.cleaned_data.get("content")
         if content == "abc":
             raise forms.ValidationError("Cannot be ABC")
-    return content
+        return content

@@ -31,4 +31,4 @@ class TweetModelTestCase(TestCase):
                 content='Some random content'
             )
         absolute_url = reverse("tweet:detail", kwargs={"pk": obj.pk})
-    self.assertEqual(obj.get_absolute_url(), absolute_url)
+        self.assertEqual(obj.get_absolute_url(), absolute_url)
